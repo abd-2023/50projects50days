@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Mobile Tab Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <div class="pages">
+            <div id="home" class="open-tab">
+                <img src="images/home.webp">
+            </div>
+            <div id="work">
+                <img src="images/work.webp">
+            </div>
+            <div id="blog">
+                <img src="images/blog.webp">
+            </div>
+            <div id="about-us">
+                <img src="images/about-us.webp">
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="menu-item" onclick="openTab(this)">
+                <i class="fas fa-home" aria-hidden="true"></i><br />
+                Home
+            </div>
+            <div class="menu-item" onclick="openTab(this)">
+                <i class="fas fa-box" aria-hidden="true"></i><br />
+                Work
+            </div>
+            <div class="menu-item" onclick="openTab(this)">
+                <i class="fas fa-book-open" aria-hidden="true"></i><br />
+                Blog
+            </div>
+            <div class="menu-item" onclick="openTab(this)">
+                <i class="fas fa-users" aria-hidden="true"></i><br />
+                About Us
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
