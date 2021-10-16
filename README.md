@@ -1,1 +1,1 @@
-This is Project Series that is based on the udemy course 50projects50days created by Brad Traversy
+This is a Project Series that is based on the udemy course 50projects50days created by Brad Traversy

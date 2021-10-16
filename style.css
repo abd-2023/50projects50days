@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+.intro{
+	text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Marcellus SC", serif;
+}
+main {
+  max-width: 90%;
+  margin: auto;
+}
+@media screen and (min-width: 420px) {
+  .projects {
+    display: flex;
+    justify-content: space-around;
+  }
+  .project {
+    width: 30%;
+  }
+}
+.project {
+  margin: 50px 0;
+  box-shadow: 0 10px 60px rgba(188, 210, 213, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.project img {
+  width: 100%;
+  transition: .3s;
+}
+.project img:hover{
+	transform: scale(1.2);
+}
+.project a {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.languages {
+  display: flex;
+}
+.languages p {
+  margin-right: 10px;
+}
+.project-info{
+	margin-left: 30px;
+}
+.project-title{
+	margin-bottom: 0;
+}
+.project-desc{
+	margin: 0 0 20px;
+}
